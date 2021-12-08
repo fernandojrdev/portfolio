@@ -81,7 +81,7 @@ body {
 #scroll-1 {
     color: rgb(255, 255, 255);
     background-color: #171717;
-    background-image: url('/Images/program.svg');
+    background-image: url('https://raw.githubusercontent.com/fernandojrdev/portfolio/main/program.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -100,7 +100,7 @@ body {
 #scroll-2 {
     color: rgb(255, 255, 255);
     background-color: #305cc2;
-    background-image: url('/Images/program2.svg');
+    background-image: url('https://raw.githubusercontent.com/fernandojrdev/portfolio/main/program2.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -118,7 +118,7 @@ body {
 #scroll-3 {
     color: rgb(255, 255, 255);
     background-color: #74297e;
-    background-image: url('/Images/ux.svg');
+    background-image: url('https://raw.githubusercontent.com/fernandojrdev/portfolio/main/ux.svg');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
