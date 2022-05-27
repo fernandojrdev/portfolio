@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&display=swap');
+@media screen and (min-width: 150px) and (max-width: 719px) {
+    .fab{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        text-align:center;
+    }
+}
+@media screen and (min-width: 720px) {
+    body {
+        background-color: #f9f9f9;
+    }
+    .fab{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:50px;
+        right:15px;
+        text-align:center;
+    }
+    .nav-pills img{
+        max-width: 25px;
+    }
+    .nav li {
+        margin-top: 1.6rem;
+    }
+    .container-fluid {
+        padding-left: 4.7rem;
+    }
+    #banner {
+        background-color: #f9f9f9;
+        background-image: url('bg-header.svg');
+        background-size: cover;
+        background-position-y: 30%;
+    }
+    #banner .row {
+        padding: 3.2rem;
+    }
+    #banner h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.5rem;
+    }
+    #servicos-col {
+        background-color: #FFFFFF;
+    }
+    #code-img {
+        padding-top: 40px;
+    }
+    #ux-img {
+        padding-top: 0px;
+    }
+    #law-img {
+        padding-top: 0px;
+        margin-bottom: -30px;
+    }
+    #portfolio {
+        margin-top: 4rem;
+    }
+    #portfolio-header {
+        padding-left: 3rem;
+        margin-bottom: 3rem;
+    }
+    #portfolio-header h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 8.5rem;
+        line-height: 6.4rem;
+    }
+    .pfc {
+        text-align: center;
+    }
+    .pfc a {
+        text-decoration: none;
+    }
+    .pfc p {
+        color: #FFFFFF;
+        font-size: 2.2vw;
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 5%;
+        padding-top: 1.5rem;
+        text-align: left;
+    }
+    .pfc img {
+        transition: transform .2s;
+        max-width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .pfc img:hover {
+        transform: scale(1.1);
+    }
+    .pfc h2 {
+        color: #f5f5f5;
+        font-family: 'Redacted Script', cursive;
+    }
+    #baron {
+        background-color: #b98a52;
+        transition: 0.3s;
+    }
+    #baron:hover {
+        background-color: #a07847;
+    }
+    #project-2 {
+        background-color: rgb(43, 153, 226);
+    }
+    #clientes {
+        margin-top: 4rem;
+    }
+    #clientes-col {
+        background-color: #FFFFFF;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #parceiros {
+        margin-top: 6rem;
+    }
+    #parceiros-row {
+        margin-top: 3rem;
+    }
+    #parceiros-col {
+        background-color: #FFFFFF;
+    }
+    #parceiros-col img {
+        margin-top: 15px;
+    }
+    #parceiros-nome {
+        padding-top: 20px;
+    }
+    #parceiros-jobs {
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+    #footer {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
