@@ -33,29 +33,38 @@
     }
     #banner {
         background-color: #f9f9f9;
-        background-image: url('/Images/bg-header.svg');
-        background-size: cover;
-        background-position-y: 30%;
+        position: relative;
+        overflow: hidden;
+    }
+    #banner video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+        opacity: 0.8;
     }
     #banner .row {
         padding: 3.2rem;
+        position: relative;
+        color: #000000;
     }
     #banner h1 {
         font-family: 'Bebas Neue', cursive;
         font-size: 3.5rem;
     }
+    #servicos {
+        margin-top: 6rem;
+    }
     #servicos-col {
         background-color: #FFFFFF;
     }
-    #code-img {
-        padding-top: 40px;
+    #servicos-desc {
+        margin-top: 20px;
     }
     #ux-img {
-        padding-top: 0px;
-    }
-    #law-img {
-        padding-top: 0px;
-        margin-bottom: -30px;
+        padding: 10px;
     }
     #portfolio {
         margin-top: 6rem;
