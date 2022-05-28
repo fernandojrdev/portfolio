@@ -47,7 +47,7 @@
     }
     #banner .row {
         padding: 3.2rem;
-        position: relative;
+        position: inherit;
         color: #000000;
     }
     #banner h1 {
