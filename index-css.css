@@ -33,7 +33,7 @@
     }
     #banner {
         background-color: #f9f9f9;
-        background-image: url('bg-header.svg');
+        background-image: url('/Images/bg-header.svg');
         background-size: cover;
         background-position-y: 30%;
     }
@@ -58,7 +58,7 @@
         margin-bottom: -30px;
     }
     #portfolio {
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     #portfolio-header {
         padding-left: 3rem;
@@ -107,7 +107,7 @@
         background-color: rgb(43, 153, 226);
     }
     #clientes {
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     #clientes-col {
         background-color: #FFFFFF;
