@@ -112,8 +112,19 @@
     #baron:hover {
         background-color: #a07847;
     }
-    #project-2 {
+    #project-mercado {
         background-color: rgb(43, 153, 226);
+        transition: 0.3s;
+    }
+    #project-mercado:hover {
+        background-color: rgb(38, 127, 187);
+    }
+    #project-sport {
+        background-color: rgb(226, 43, 43);
+        transition: 0.3s;
+    }
+    #project-sport:hover {
+        background-color: rgb(177, 34, 34);
     }
     #clientes {
         margin-top: 6rem;
