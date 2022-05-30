@@ -4,14 +4,6 @@
     body {
         background-color: #f9f9f9;
     }
-    .fab{
-        position:fixed;
-        width:60px;
-        height:60px;
-        bottom:50px;
-        right:15px;
-        text-align:center;
-    }
     #banner {
         background-color: #f9f9f9;
         position: relative;
@@ -145,13 +137,8 @@
     body {
         background-color: #f9f9f9;
     }
-    .fab{
-        position:fixed;
-        width:60px;
-        height:60px;
-        bottom:50px;
-        right:15px;
-        text-align:center;
+    #cookie {
+        margin-left: 2rem;
     }
     .nav-pills img{
         max-width: 25px;
