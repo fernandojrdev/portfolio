@@ -67,13 +67,9 @@
         text-align: left;
     }
     .pfc img {
-        transition: transform .2s;
         max-width: 80%;
         padding-top: 1rem;
         padding-bottom: 1rem;
-    }
-    .pfc img:hover {
-        transform: scale(1.1);
     }
     .pfc h2 {
         color: #f5f5f5;
@@ -81,24 +77,12 @@
     }
     #baron {
         background-color: #b98a52;
-        transition: 0.3s;
-    }
-    #baron:hover {
-        background-color: #a07847;
     }
     #project-mercado {
         background-color: rgb(43, 153, 226);
-        transition: 0.3s;
-    }
-    #project-mercado:hover {
-        background-color: rgb(38, 127, 187);
     }
     #project-sport {
         background-color: rgb(226, 43, 43);
-        transition: 0.3s;
-    }
-    #project-sport:hover {
-        background-color: rgb(177, 34, 34);
     }
     #clientes {
         margin-top: 3rem;
