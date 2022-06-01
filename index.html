@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="index-css.css" rel="stylesheet">
     <title>Fernando Jr. | Web Developer & UX/UI</title>
-    <link rel="icon" type="image/x-icon" href="https://imgur.com/oUA6i8O.png">
+    <link rel="icon" type="image/x-icon" href="/Images/logo-fundo.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNTRVF2956"></script>
     <script>
@@ -21,6 +21,15 @@
     </script>
 </head>
 <body>
+    <div class="loading">
+        <span class="loader"><img src="/Images/logo branca.png">
+        </span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+            $(".loading").delay("650").fadeOut("slow");
+        });
+    </script>
 <!--Contato-->
     <script type="text/javascript" src="https://popupsmart.com/freechat.js"></script>
     <script> window.start.init({ 
@@ -44,7 +53,7 @@
     </script>
 <!--Contato-->
 <!--Nav-->
-    <div class="nav fixed-top d-lg-flex flex-column flex-shrink-0 bg-white shadow-sm d-none" style="width: 4rem; height: 100vh;">
+    <div class="nav nav-main d-lg-flex flex-column flex-shrink-0 bg-white shadow-sm d-none" style="width: 4rem; height: 100vh;">
         <a class="d-block p-3 link-dark text-decoration-none" title="Fernando Jr. Developer" data-bs-toggle="tooltip" data-bs-placement="right">
             <img src="https://imgur.com/JjnF5xt.png" style="width: 100%;">
         </a>

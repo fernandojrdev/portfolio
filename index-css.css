@@ -4,6 +4,35 @@
     body {
         background-color: #f9f9f9;
     }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #e20e0e;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.6);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.3);
+        }
+    }
     #inicio {
         background-color: #f9f9f9;
         position: relative;
@@ -120,6 +149,39 @@
 @media screen and (min-width: 992px) {
     body {
         background-color: #f9f9f9;
+    }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #e20e0e;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.6);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.3);
+        }
+    }
+    .nav-main {
+       position: fixed;
+       z-index: 1; 
     }
     .nav-pills img{
         max-width: 25px;
