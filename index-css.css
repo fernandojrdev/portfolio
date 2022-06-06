@@ -38,19 +38,19 @@
         position: relative;
         overflow: hidden;
     }
-    #inicio video {
+    #inicio .video {
         position: absolute;
         top: 0;
         left: 0;
         object-fit: cover;
         height: 100%;
         width: 100%;
-        opacity: 0.8;
+        opacity: 1;
     }
     #inicio .row {
         padding: 0.5rem;
         position: inherit;
-        color: #000000;
+        color: #ffffff;
     }
     #inicio h1 {
         font-family: 'Bebas Neue', cursive;
@@ -204,7 +204,7 @@
         object-fit: cover;
         height: 100%;
         width: 100%;
-        opacity: 0.8;
+        opacity: 1;
     }
     #inicio .row {
         padding: 3.2rem;
