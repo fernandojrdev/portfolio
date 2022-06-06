@@ -38,7 +38,7 @@
         position: relative;
         overflow: hidden;
     }
-    #inicio .video {
+    #inicio .cover {
         position: absolute;
         top: 0;
         left: 0;
@@ -197,7 +197,7 @@
         position: relative;
         overflow: hidden;
     }
-    #inicio .video {
+    #inicio .cover {
         position: absolute;
         top: 0;
         left: 0;
