@@ -197,7 +197,7 @@
         position: relative;
         overflow: hidden;
     }
-    #inicio video {
+    #inicio .video {
         position: absolute;
         top: 0;
         left: 0;
@@ -209,9 +209,9 @@
     #inicio .row {
         padding: 3.2rem;
         position: inherit;
-        color: #000000;
+        color: #ffffff;
     }
-    #banner h1 {
+    #inicio h1 {
         font-family: 'Bebas Neue', cursive;
         font-size: 3.5rem;
     }
