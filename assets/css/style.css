@@ -127,7 +127,7 @@ form button:hover   {
     height: 100%;
     object-fit: contain;
     border-radius: 100%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .3);
 }
 .linktree-dev {
     margin-top: -1.25rem;
