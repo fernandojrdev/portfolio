@@ -6,13 +6,12 @@
     font-family: 'Comfortaa', cursive;
 }
 body    {
-    /* background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% ); */
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
     background: #111;
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     scroll-behavior: smooth;
-    min-height: 100vh;
     margin: auto;
 }
 #contact    {
@@ -164,6 +163,10 @@ form button:hover   {
     transform: scale(1.2);
 }
 @media (max-width: 768px) {
+    .linktree-container {
+        min-height: 100dvh;
+        overflow: hidden;
+    }
     .linktree-wrapper {
         padding: 1rem;
     }
