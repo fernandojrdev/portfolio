@@ -164,6 +164,9 @@ form button:hover   {
     transform: scale(1.2);
 }
 @media (max-width: 768px) {
+    .linktree-wrapper {
+        padding: 1rem;
+    }
     .linktree-links {
         gap: 0.75rem;
     }
