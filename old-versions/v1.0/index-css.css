@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&display=swap');
+@media screen and (min-width: 150px) and (max-width: 991px) {
+    body {
+        background-color: #f9f9f9;
+    }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #e20e0e;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(0.5);
+        }
+    }
+    #inicio {
+        background-color: #f9f9f9;
+        position: relative;
+        overflow: hidden;
+    }
+    #inicio .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+    }
+    #inicio .row {
+        padding: 0.5rem;
+        position: inherit;
+        color: #ffffff;
+    }
+    #inicio h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2.2rem;
+        padding-top: 1rem;
+    }
+    #servicos {
+        margin-top: 3rem;
+    }
+    #servicos-col {
+        background-color: #FFFFFF;
+    }
+    #servicos-desc {
+        margin-top: 20px;
+    }
+    #ux-img {
+        padding: 10px;
+    }
+    #portfolio {
+        margin-top: 6rem;
+    }
+    #portfolio-header {
+        padding-left: 0.5rem;
+        margin-bottom: 3rem;
+    }
+    #portfolio-header h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 8.5rem;
+        line-height: 6.4rem;
+    }
+    .pfc {
+        text-align: center;
+    }
+    .pfc a {
+        text-decoration: none;
+    }
+    .pfc p {
+        color: #FFFFFF;
+        font-size: 2rem;
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 5%;
+        padding-top: 1.5rem;
+        text-align: left;
+    }
+    .pfc img {
+        max-width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .pfc h2 {
+        color: #f5f5f5;
+        font-family: 'Redacted Script', cursive;
+    }
+    #baron {
+        background-color: #b98a52;
+    }
+    #project-mercado {
+        background-color: rgb(43, 153, 226);
+    }
+    #project-sport {
+        background-color: rgb(226, 43, 43);
+    }
+    #clientes {
+        margin-top: 3rem;
+    }
+    #clientes-col {
+        background-color: #FFFFFF;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #parceiros {
+        margin-top: 3rem;
+    }
+    #parceiros-row {
+        margin-top: 1rem;
+    }
+    #parceiros-col {
+        background-color: #FFFFFF;
+        margin-top: 1rem;
+    }
+    #parceiros-col img {
+        margin-top: 15px;
+    }
+    #parceiros-nome {
+        padding-top: 20px;
+    }
+    #parceiros-jobs {
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+    #footer {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #f9f9f9;
+    }
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: #e20e0e;
+        z-index: 2;
+        position: fixed;
+        overflow: hidden;
+    }
+    .loader {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        animation: loader 2s infinite ease;
+        position: relative;
+    }
+    @keyframes loader {
+        0% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(0.5);
+        }
+    }
+    .nav-main {
+       position: fixed;
+       z-index: 1; 
+    }
+    .nav-pills img{
+        max-width: 25px;
+    }
+    .nav li {
+        margin-top: 1.6rem;
+    }
+    .container-fluid {
+        padding-left: 4.7rem;
+    }
+    #inicio {
+        background-color: #f9f9f9;
+        position: relative;
+        overflow: hidden;
+    }
+    #inicio .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+    }
+    #inicio .row {
+        padding: 3.2rem;
+        position: inherit;
+        color: #ffffff;
+    }
+    #inicio h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.5rem;
+    }
+    #servicos {
+        margin-top: 6rem;
+    }
+    #servicos-col {
+        background-color: #FFFFFF;
+    }
+    #servicos-desc {
+        margin-top: 20px;
+    }
+    #ux-img {
+        padding: 10px;
+    }
+    #portfolio {
+        margin-top: 6rem;
+    }
+    #portfolio-header {
+        padding-left: 3rem;
+        margin-bottom: 3rem;
+    }
+    #portfolio-header h1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 8.5rem;
+        line-height: 6.4rem;
+    }
+    .pfc {
+        text-align: center;
+    }
+    .pfc a {
+        text-decoration: none;
+    }
+    .pfc p {
+        color: #FFFFFF;
+        font-size: 2.2vw;
+        font-family: 'Bebas Neue', cursive;
+        padding-left: 5%;
+        padding-top: 1.5rem;
+        text-align: left;
+    }
+    .pfc img {
+        transition: transform .2s;
+        max-width: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .pfc img:hover {
+        transform: scale(1.1);
+    }
+    .pfc h2 {
+        color: #f5f5f5;
+        font-family: 'Redacted Script', cursive;
+    }
+    #baron {
+        background-color: #b98a52;
+        transition: 0.3s;
+    }
+    #baron:hover {
+        background-color: #a07847;
+    }
+    #project-mercado {
+        background-color: rgb(43, 153, 226);
+        transition: 0.3s;
+    }
+    #project-mercado:hover {
+        background-color: rgb(38, 127, 187);
+    }
+    #project-sport {
+        background-color: rgb(226, 43, 43);
+        transition: 0.3s;
+    }
+    #project-sport:hover {
+        background-color: rgb(177, 34, 34);
+    }
+    #clientes {
+        margin-top: 6rem;
+    }
+    #clientes-col {
+        background-color: #FFFFFF;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #parceiros {
+        margin-top: 6rem;
+    }
+    #parceiros-row {
+        margin-top: 3rem;
+    }
+    #parceiros-col {
+        background-color: #FFFFFF;
+    }
+    #parceiros-col img {
+        margin-top: 15px;
+    }
+    #parceiros-nome {
+        padding-top: 20px;
+    }
+    #parceiros-jobs {
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+    #footer {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+}
