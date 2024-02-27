@@ -177,7 +177,7 @@ form button:hover   {
         gap: 0.75rem;
     }
     .linktree-link  {
-        max-width: 40px;
+        width: 40px;
     }
     .linktree-link:hover  {
         transform: scale(1);
