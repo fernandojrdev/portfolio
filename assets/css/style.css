@@ -53,7 +53,7 @@ body    {
     text-decoration: none;
 }
 
-
+/* PORTFOLIO */
 #portfolio    {
     display: flex;
     justify-content: center;
@@ -113,7 +113,11 @@ body    {
     margin: 2rem 0;
 }
 
-
+@media (max-width: 768px) {
+    #portfolio .wrapper {
+        padding: 1rem;
+    }
+}
 /* FORM CONTATO */
 #contact    {
     background-color: #ffffff;
@@ -205,6 +209,7 @@ body    {
 @media (max-width: 768px) {
     #contact form {
         width: 100%;
+        padding: 1rem;
     }
     #contact .image {
         display: none;
