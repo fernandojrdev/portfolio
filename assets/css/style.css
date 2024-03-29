@@ -40,6 +40,18 @@ body    {
 .button:hover {
     transform: scale(1.1);
 }
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #ffffff;            
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.btn-grad:hover {
+    background-position: right center;
+    text-decoration: none;
+}
 
 
 #portfolio    {
@@ -123,7 +135,7 @@ body    {
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
 }
-form    {
+#contact form    {
     display: flex;
     width: 60%;
     padding: 2rem;
@@ -132,11 +144,11 @@ form    {
     font-weight: 700;
     color: #000000;
 }
-form h1   {
+#contact form h1   {
     text-align: center;
     margin-bottom: 1rem;
 }
-form input  {
+#contact form input  {
     width: 100%;
     background-color: transparent;
     border: none;
@@ -144,13 +156,13 @@ form input  {
     color: #000000;
     padding-top: .5rem;
 }
-form input::placeholder   {
+#contact form input::placeholder   {
     color: #363636;
 }
-form input:focus   {
+#contact form input:focus   {
     outline: none;
 }
-form textarea   {
+#contact form textarea   {
     color: #000000;
     min-width: 100%;
     max-width: 100%;
@@ -160,15 +172,15 @@ form textarea   {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     position: relative;
 }
-form textarea::placeholder   {
+#contact form textarea::placeholder   {
     color: #000000;
     position: absolute;
     bottom: 10px;
 }
-form textarea:focus   {
+#contact form textarea:focus   {
     outline: none;
 }
-form button  {
+#contact form button  {
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -179,21 +191,9 @@ form button  {
     cursor: pointer;
     transition: 500ms;
 }
-form button:hover   {
+#contact form button:hover   {
     transform: scale(1.2);
 }     
-.btn-grad {
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
-    text-align: center;
-    text-transform: uppercase;
-    background-size: 200% auto;
-    color: #ffffff;            
-    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-}
-.btn-grad:hover {
-    background-position: right center;
-    text-decoration: none;
-}
 #contact .image {
     width: 40%;
     height: 100%;
@@ -201,6 +201,14 @@ form button:hover   {
 #contact .image img {
     object-fit: cover;
     border-radius: 0 .5rem .5rem 0;
+}
+@media (max-width: 768px) {
+    #contact form {
+        width: 100%;
+    }
+    #contact .image {
+        display: none;
+    }
 }
 /* LINKTREE / LINKS */
 .linktree   {
