@@ -112,7 +112,7 @@ body    {
     font-size: .75rem;
 }
 @media (max-width: 768px) {
-    #portfolio .wrapper {
+    #portfolio .header {
         padding: 1rem;
     }
 }
