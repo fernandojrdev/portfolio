@@ -57,9 +57,7 @@ body    {
 #portfolio    {
     display: flex;
     justify-content: center;
-    padding: 1rem;
     width: 100%;
-    min-height: 400px;
     max-height: 100%;
 }
 #portfolio .wrapper {
@@ -67,26 +65,19 @@ body    {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
     width: 100%;
-    max-width: 1440px;
-    padding: 2rem;
-    gap: 2rem;
-    border-radius: .5rem;
-    background: rgba(255, 255, 255, .1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
-    backdrop-filter: blur(9px);
-    -webkit-backdrop-filter: blur(9px);
+    max-width: 1472px;
 }
 #portfolio .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     width: 100%;
-    gap: 2rem;
 }
 #portfolio .col {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 1rem;
     gap: 1rem;
     background-color: rgba(0, 0, 0, .3);
     text-decoration: none;
@@ -98,8 +89,8 @@ body    {
 }
 #portfolio .col:hover   {
     background-color: rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-    box-shadow: 0 4px 30px rgba(70, 0, 100, 0.3);
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(70, 0, 100, 0.3);
     backdrop-filter: blur(30%);
     -webkit-backdrop-filter: blur(30%);
 }
@@ -113,6 +104,13 @@ body    {
     margin: 2rem 0;
 }
 
+#portfolio .slick-dots li.slick-active button:before {
+    color: #DA22FF !important;
+}
+#portfolio .slick-dots li button:before {
+    color: #FFFFFF !important;
+    font-size: .75rem;
+}
 @media (max-width: 768px) {
     #portfolio .wrapper {
         padding: 1rem;
@@ -209,7 +207,7 @@ body    {
 @media (max-width: 768px) {
     #contact form {
         width: 100%;
-        padding: 1rem;
+        padding: 3rem 1rem;
     }
     #contact .image {
         display: none;
