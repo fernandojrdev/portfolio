@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
+    color-scheme: dark light;
+}
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+    }
 }
 body    {
     /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
@@ -12,7 +19,6 @@ body    {
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
-    scroll-behavior: smooth;
 }
 .img-fluid   {
     width: 100%;
