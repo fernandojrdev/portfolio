@@ -59,6 +59,70 @@ body    {
     text-decoration: none;
 }
 
+
+
+
+
+
+/* NAVBAR */
+
+nav {
+    position: fixed;
+    z-index: 10;
+    padding: .5rem;
+    background-color: #000000;
+    width: 100%;
+    max-width: 1440px;
+}
+
+nav .main-nav {
+    height: 50px;
+}
+@media (max-width: 768px) {
+    nav .main-nav {
+        display: none;
+    }
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: ease-in-out 500ms;
+}
+.sidenav a {
+    padding: 8px 8px 28px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 300ms;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 50px;
+    color: #DA22FF;
+}
+nav #menu-icon {
+    width: 35px;
+}
+@media (min-width: 768px) {
+    nav #menu-icon {
+        display: none;
+    }
+}
+.active {
+    color: #DA22FF !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: .5px !important;
+}
 /* PORTFOLIO */
 #portfolio    {
     display: flex;
@@ -82,7 +146,7 @@ body    {
 #portfolio .col {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    aspect-ratio: 1 / 1.1;
     margin: 1rem;
     gap: 1rem;
     background-color: rgba(0, 0, 0, .3);
@@ -102,6 +166,9 @@ body    {
 }
 #portfolio .col img {
     border-radius: .5rem .5rem 0 0;
+    height: 55%;
+    object-fit: cover;
+    object-position: center;
 }
 #portfolio .col .text {
     padding: 0 1rem;
@@ -111,7 +178,7 @@ body    {
     justify-content: start;
     width: 100%;
     height: 3rem;
-    margin: 2rem 0 0 0;
+    margin: 1rem 0 0 0;
     padding: 1rem 0 0 0;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
@@ -120,7 +187,7 @@ body    {
     padding: 0 2px 0 2px;
 }
 #portfolio .button {
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
 }
 #portfolio .slick-dots li.slick-active button:before {
     color: #DA22FF !important;
@@ -128,6 +195,9 @@ body    {
 #portfolio .slick-dots li button:before {
     color: #FFFFFF !important;
     font-size: .75rem;
+}
+#portfolio .more {
+    text-decoration: none;
 }
 @media (max-width: 768px) {
     #portfolio .header {
@@ -312,7 +382,7 @@ body    {
 }
 @media (max-width: 768px) {
     .linktree-container {
-        min-height: 100vh;
+        min-height: 100dvh;
         overflow: hidden;
     }
     .linktree-wrapper {
