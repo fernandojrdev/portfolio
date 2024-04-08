@@ -10,7 +10,7 @@
     <div class="offcanvas offcanvas-end px-3" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
       <div class="offcanvas-header">
         <a class="navbar-brand" href="#">
-          <img src="./icons/imgs/favicon.png" alt="Fernando Jr Dev Logo" width="30">
+          <img src="./assets/imgs/favicon.png" alt="Fernando Jr Dev Logo" width="30">
         </a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
