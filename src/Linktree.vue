@@ -1,7 +1,7 @@
 <template>
     <div class="linktree-container">
         <div class="linktree-wrapper">
-            <img src="components/assets/imgs/pfp.jpg" alt="Profile Picture" class="linktree-img">
+            <img src="./components/assets/imgs/pfp.jpg" alt="Profile Picture" class="linktree-img">
             <h2 class="linktree-name">
                 Fernando Jr.
             </h2>
@@ -10,23 +10,23 @@
             </p>
             <p class="linktree-location">
                 Campinas - SP
-                <img src="components/assets/imgs/brasil.svg" alt="Brazil Flag">
+                <img src="./components/assets/imgs/brasil.svg" alt="Brazil Flag">
             </p>
             <div class="linktree-links">
                 <a href="https://www.linkedin.com/in/feferjr/" target="_blank">
-                    <img src="components/assets/imgs/linkedin.svg" alt="Linkedin Logo" class="linktree-link">
+                    <img src="./components/assets/imgs/linkedin.svg" alt="Linkedin Logo" class="linktree-link">
                 </a>
                 <a href="https://fernandojrdev.github.io/portfolio/" target="_blank">
-                    <img src="components/assets/imgs/website.svg" alt="Website Logo" class="linktree-link">
+                    <img src="./components/assets/imgs/website.svg" alt="Website Logo" class="linktree-link">
                 </a>
                 <a href="https://github.com/fernandojrdev" target="_blank">
-                    <img src="components/assets/imgs/github.svg" alt="github Logo" class="linktree-link">
+                    <img src="./components/assets/imgs/github.svg" alt="github Logo" class="linktree-link">
                 </a>
                 <a href="https://wa.me/5519983162109" target="_blank">
-                    <img src="components/assets/imgs/whatsapp.svg" alt="WhatsApp Logo" class="linktree-link">
+                    <img src="./components/assets/imgs/whatsapp.svg" alt="WhatsApp Logo" class="linktree-link">
                 </a>
                 <a href="mailto:fernandomtcjunior@gmail.com" target="_blank">
-                    <img src="components/assets/imgs/email.svg" alt="Email Logo" class="linktree-link">
+                    <img src="./components/assets/imgs/email.svg" alt="Email Logo" class="linktree-link">
                 </a>
             </div>
         </div>
